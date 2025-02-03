@@ -19,34 +19,34 @@ The Crop Advisory System is a web application designed to assist farmers in maki
   - Tailwind CSS for styling
   - Lucide Icons for visual elements
 
-- **Backend** (if applicable):
+- **Backend**:
   - Node.js
   - Express.js
-  - MongoDB (or any other database)
+  - MongoDB 
 
 ## Installation
 
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-        ```bash
-        git clone https://github.com/Lakshya9545/Crop-Advisory
+   ```bash
+          git clone https://github.com/Lakshya9545/Crop-Advisory
 2. Navigate to the project directory:
-        ```bash
+   ```bash
         cd Crop-Advisory-System
 3. Install the dependencies
-        ```bash
+   ```bash
         npm install
 4. Start the development server:
-        ```bash
+   ```bash
         npm run dev
 5. For Backend setup
-        ```bash
+   ```bash
         npm i
 6. .env setup
-        ```bash
+   ```bash
         PORT
         MONGO_URL
 7. Start the backend server
-        ```bash
+   ```bash
         npm start
