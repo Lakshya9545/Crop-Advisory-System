@@ -11,14 +11,14 @@ The Crop Advisory System is a web application designed to assist farmers in maki
 - **Soil Health Monitoring**: Tools to monitor and improve soil health with expert insights. 
 - **User-Friendly Interface**: Intuitive design for easy navigation and access to information. 
 
-## Technologies Used
+## Technologies Used 
 
-- **Frontend**: 
+- **Frontend**:  
   - React.js 
-  - React Router DOM 
+  - React Router DOM  
   - Tailwind CSS for styling 
   - Lucide Icons for visual elements 
-
+                           
 - **Backend**: 
   - Node.js 
   - Express.js 
@@ -38,7 +38,7 @@ To set up the project locally, follow these steps:
    ```bash 
         npm install
 4. Start the development server:
-   ```bash
+   ```bash 
         npm run dev
 5. For Backend setup
    ```bash
