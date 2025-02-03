@@ -50,3 +50,9 @@ To set up the project locally, follow these steps:
 7. Start the backend server
    ```bash
         npm start
+
+
+## IMAGES
+![image](https://github.com/user-attachments/assets/1d32f886-15d0-4c88-91e3-d1c266cce10a)
+![image](https://github.com/user-attachments/assets/493d9ab7-4f2a-4f38-8fea-13efdd6577b6)
+
