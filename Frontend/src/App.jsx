@@ -9,8 +9,11 @@ const App = () => {
         weatherConditions: ''
     });
     const [crops, setCrops] = useState([]);
+
     const [advice, setAdvice] = useState('');
+
     const [isLoading, setIsLoading] = useState(false);
+
     const [error, setError] = useState(null);
 
     const handleInputChange = (e) => {
@@ -59,6 +62,7 @@ const App = () => {
         } catch (err) {
             setError('Failed to get crop advice. Please try again.');
             console.error(err);
+
         } finally {
             setIsLoading(false);
         }
@@ -102,6 +106,7 @@ const App = () => {
                                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
                                 placeholder="Farm location"
                                 required
+                                // input tag is completed
                             />
                         </div>
                     </div>
